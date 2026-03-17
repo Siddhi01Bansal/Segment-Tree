@@ -1,5 +1,5 @@
- class SGTree {
- 	vector<int> seg;
+class SGTree {
+ vector<int> seg;
  public:
  	SGTree(int n) {
  		seg.resize(4 * n + 1);
